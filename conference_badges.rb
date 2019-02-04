@@ -18,6 +18,6 @@ end
 return greetings
 end
 
-def printer
-  puts assign_rooms
+def printer(attendees)
+  puts assign_rooms(attendees)
 end 
