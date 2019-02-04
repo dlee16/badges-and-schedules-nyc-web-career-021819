@@ -19,5 +19,5 @@ return greetings
 end
 
 def printer(attendees)
-  puts assign_rooms(names)
+  puts assign_rooms
 end 
