@@ -19,5 +19,5 @@ return greetings
 end
 
 def printer(attendees)
-  puts badge_maker(attendees)
+  puts badge_maker(name)
 end 
