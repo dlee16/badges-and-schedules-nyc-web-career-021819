@@ -19,5 +19,6 @@ return greetings
 end
 
 def printer(attendees)
-  puts batch_badge_creator(name)
+  batch_badge_creator(attendees).each do |name|
+  puts  
 end 
