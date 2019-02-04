@@ -13,7 +13,7 @@ end
 def assign_rooms(attendees)
   greetings=[]
   attendees.each do |name, index|
-    greetings.push("Hello, #{name}! You'll be assigned to room #{index+=1}")
+    greetings.push("Hello, #{name}! You'll be assigned to room #{index+1}")
 end 
 return greetings
 end
